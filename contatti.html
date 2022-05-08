@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Epicode School: il punto di partenza per la tua professione di Developer.">
+    <title>Epicode - Formazione Web Developer</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- To use Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/12ded4ec83.js" crossorigin="anonymous"></script>
+    <!-- To use Lineicons Icons -->  
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  </head>
+
+<body>
+
+  <div class="container navigation">
+    <header>
+      <div>
+        <a href="index.html" title="Homepage">
+        <img src="assets/img/logo.png" alt="logo epicode">
+        </a>
+      </div>
+
+      <label for="menuButton" id="menuMobile"><i class="lni lni-more-alt"></i></label>
+      <input type="checkbox" id="menuButton">
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Homepage">Home</a></li>
+          <li><a href="chi-siamo.html" title="Chi Siamo">Chi Siamo</a></li>
+          <li><a href="contatti.html" title="Contatti">Contatti</a></li>
+          <li><a href="contatti.html" title="Registrazione"><p>Registrati</p></a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  
+  <div id="title"><h1>Contatti</h1></div>
+
+  <main id="main-contatti">
+    <div class="contact-page">
+
+      <div class="form">
+        <form action="contatti.html" method="POST">
+          <fieldset>
+
+            <ul>
+              <li><label for="nome"></label>
+              <input type="text" id="name" value="Nome e Cognome" maxlength="16" size="40"></li>
+              <li><label for="email"></label>
+              <input type="email" name="email" id="email" value="Indirizzo valido nome@casella.com" maxlength="48" size="40"></li>
+              <li><label for="message"></label>
+              <input type="text" id="text" value="Scrivi in breve il tuo messaggio" maxlength="200" size="40"></li>
+            </ul>
+          </fieldset>  
+        <a href="contatti.html" title="Scrivici"><p>Invia il messaggio</p></a><!-- Button link -->
+        </form>
+      </div>
+
+      <div class="address">
+        <h2>Sede formativa</h2>
+        <p>Via Appia 1</p>
+        <p>00100 Roma (RM)</p> </br>
+
+        <p>info@epicode.school</p>
+        <p>+39 0612345956</p>
+
+        <h2>Lavora con noi</h2>
+        <p>Per poterti candidare ad un ruolo da docente
+          invia il tuo cv a job@epicode.school</p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="box-5">
+      
+      <div>
+        <h3>Chi siamo</h3>
+        <p title="text-resize">Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+      </div>
+
+      <div>
+        <h3>Ti piace cio' che vedi? </br> Condividilo con i tuoi amici!</h3>
+        
+        <ul>
+          <li><i class="lni lni-facebook-original"></i></li>
+          <li><i class="lni lni-linkedin-original"></i></li>
+          <li><i class="lni lni-instagram-filled"></i></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Iscriviti alla nostra newsletter</h3>
+        <form action="contatti.html" method="POST">
+          <fieldset>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" maxlength="32">
+          </fieldset>
+        </form>
+        <a href="contatti.html" title="scrivici"><p>Va&nbsp;bene!</p></a><!-- Button link -->
+      </div>
+    </div>
+    <div id="address">&copy;2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678</div>
+  </footer>
+
+</body>
+
+</html>
