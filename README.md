@@ -11,4 +11,4 @@
   </a> 
 </p>
 
-![week-1](https://user-images.githubusercontent.com/77717069/175143626-e0e088d8-27e5-44fd-8f64-11bec741120d.gif)
+![week-2](https://user-images.githubusercontent.com/77717069/175168524-820dad2f-489c-4fbf-af24-baa4cca6c66c.gif)
